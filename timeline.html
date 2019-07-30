@@ -18,8 +18,8 @@
 
   <body>
     <header>
-      <div class="global-nav">
-        <ul class="nav-center">
+      <div id="global-nav">
+        <!-- <ul class="nav-center">
           <li class="nav-link nav-left"><a href="index.php">Logo</a></li>
           <li class="nav-link"><a href="#">1920s</a></li>
           <li class="nav-link"><a href="#">1930s</a></li>
@@ -30,7 +30,7 @@
           <li class="nav-link"><a href="#">1980s</a></li>
           <li class="nav-link"><a href="#">1990s</a></li>
           <li class="nav-link"><a href="#">2000s</a></li>
-        </ul>
+        </ul> -->
       </div>
     </header>
     <div
@@ -52,9 +52,20 @@
       <a class="blue" data-filter="blue" href="#" role="button">1941</a>
       <a class="red" data-filter="red" href="#" role="button">Show Red Boxes</a> -->
     </div>
-
     <div class="boxes"></div>
     <!-- <script src="script.js"></script> -->
     <script src="events.js"></script>
+
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="addReact-dist.js"></script>
   </body>
 </html>

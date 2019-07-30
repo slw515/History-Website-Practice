@@ -20,7 +20,7 @@ header {
   background: #dddfe6;
   width: 100%;
 }
-.global-nav {
+#global-nav {
   font-size: 13px;
   font-family: "erbar-regular";
   text-align: center;
@@ -29,11 +29,11 @@ header {
   position: relative;
   color: white;
 }
-.global-nav ul {
+#global-nav ul {
   padding: 0 auto;
   margin: 0;
 }
-.global-nav li {
+#global-nav li {
   display: inline-block;
 }
 .nav-link a {
